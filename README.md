@@ -1,0 +1,1 @@
+The current project is about rebuilding the Google homepage to practice html and css.
