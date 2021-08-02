@@ -39,10 +39,7 @@ li a {
 
 .footer-links {
     color: #0000008A;
-}
-
-#canada {
-    color: #0000008A;
+    padding: 0 10px 0 10px;
 }
 
 .wrapper {
@@ -68,4 +65,131 @@ li a {
 
 #images {
     margin-left: 6px;
+}
+
+.mainpage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 29.9vh;
+}
+
+#logo-google {
+    max-width: 272px;
+    max-height: 92px;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 580px;
+    height: 45px;
+    padding: 10px;
+    border: 1px solid #dfe1e5;
+    border-radius: 30px;
+    margin: 25px 0 30px 0;
+}
+
+.search-input {
+    border:none;
+    width: 490px;
+    font-size: 14px;
+}
+
+.search-input:focus {
+    outline: none;
+}
+ .microphone {
+    border: none;
+    background-color: white;
+}
+
+.form:hover {
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+}
+
+button {
+    cursor: pointer;
+}
+
+.button-form button {
+    border: none;
+    background-color: #f8f9fa;
+    font-size: 14px;
+    padding: 10px 15px 10px 15px;
+    margin: 5px;
+}
+
+.button-form button:hover {
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+}
+
+#space {
+    height: 36.5vh;
+}
+
+.footer ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #F2F2F2;
+    padding: 15px 15px 15px 25px;
+} 
+
+#canada {
+    color: #0000008A;
+    background-color: #F2F2F2;
+    padding: 15px 15px 15px 40px;
+    border-bottom: 1px solid #dadce0;
+}
+
+.footer-links:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 665px) {
+    #canada {
+        font-size: 11px;
+    }
+    .footer-links {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 585px) {
+    .form {
+        width: 80%;
+    }
+}
+
+@media (max-width: 525px) {
+    #canada {
+        font-size: 8px;
+    }
+    .footer-links {
+        font-size: 8px;
+    }
+    .smalldisplay {
+        display: none !important;
+    }
 }

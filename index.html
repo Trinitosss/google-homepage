@@ -28,42 +28,41 @@
             </div>
         </nav>
     </header>
-    <main>
-        <div>
-            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="">
+    <main class="mainpage">
+        <div class="logo">
+            <img id="logo-google"
+                src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="">
         </div>
-        <form action="">
-            <div>
-                <img src="/images/outline_search_black_24dp.png" alt="">
-                <label for="search"></label>
-                <input type="text" id="search" name="search">
-                <img src="/images/outline_mic_black_24dp.png" alt="">
-            </div>
-            <div>
-                <button>Google Search</button>
-                <button>I'm Feeling Lucky</button>
-            </div>
-        </form>
+        <div class="form">
+            <img class="search-icon" src="/images/outline_search_black_24dp.png" alt="">
+            <label for="search"></label>
+            <input class="search-input" type="text" id="search" name="search">
+            <button class="microphone"><img
+                    src="https://michalosman.github.io/google-homepage/images/google-microphone.png" alt=""></button>
+        </div>
+        <div class="button-form">
+            <button>Google Search</button>
+            <button>I'm Feeling Lucky</button>
+        </div>
+        <div id="space">
+
+        </div>
     </main>
-    <footer>
+    <footer class="footer">
         <div>
             <p id="canada">Canada</p>
         </div>
-        <div>
-            <div>
-                <ul>
-                    <li><a class="footer-links" href="#">Advertising</a></li>
-                    <li><a class="footer-links" href="#">Business</a></li>
-                    <li><a class="footer-links" href="#">How Search Works</a></li>
-                </ul>
-            </div>
-            <div>
-                <ul>
-                    <li><a class="footer-links" href="#">Privacy</a></li>
-                    <li><a class="footer-links" href="#">Terms</a></li>
-                    <li><a class="footer-links" href="#">Settings</a></li>
-                </ul>
-            </div>
+        <div class="footer-wrapper">
+            <ul class="mainfooter">
+                <li><a class="footer-links" href="#">Advertising</a></li>
+                <li><a class="footer-links" href="#">Business</a></li>
+                <li><a class="footer-links smalldisplay" href="#">How Search Works</a></li>
+            </ul>
+            <ul class="secondaryfooter">
+                <li><a class="footer-links" href="#">Privacy</a></li>
+                <li><a class="footer-links" href="#">Terms</a></li>
+                <li><a class="footer-links" href="#">Settings</a></li>
+            </ul>
         </div>
     </footer>
 </body>
